@@ -1,0 +1,100 @@
+.boton {
+	background: red;
+	color: #fff;
+}
+
+.nombre {
+	color: blue;
+	font-size: 40px;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+	width: 45%;
+	float: left;
+	border: 2px solid red;
+	height: 400px;
+}
+.caja3, .caja4, .caja5 {
+		width: 30%;
+	}
+.caja1 { background: blue; }
+.caja2 { background: orange; }
+.caja3 { background: green; }	
+.caja4 { background: pink; }
+.caja5 { background: yellow; }	
+
+@media (max-width: 1000px) {
+	.boton {
+		background: blue;
+	}
+}
+@media (max-width: 900px) {
+	.boton {
+		background: orange;
+	}
+}
+@media (max-width: 800px) {
+	.boton {
+		background: pink;
+	}
+}
+@media (max-width: 700px) {
+	.boton {
+		background: green;
+	}
+}
+@media (max-width: 600px) {
+	.boton {
+		background: purple;
+	}
+}
+@media (max-width: 500px) {
+	.boton {
+		background: yellow;
+	}
+}
+@media (max-width: 400px) {
+	.boton {
+		background: black;
+	}
+}
+@media (max-width: 300px) and (min-width: 100px){
+	.boton {
+		background: greenyellow;
+	}
+}
+
+
+@media (max-width: 1000px){
+	.nombre {
+		color: green;
+	}
+}
+@media (max-width: 800px) and (min-width: 500px){
+	.nombre {
+		color: orange;
+	}
+}
+@media (max-width: 500px){
+	.nombre {
+		color: red;
+		font-size: 20px;
+	}
+	.caja1, .caja2, .caja3, .caja4, .caja5{
+		width: 100%;
+	}
+}
+@media print {
+	.nombre {
+		font-size: 140px;
+	}
+	.boton {
+		display: none;
+	}
+}
+
+	
+
+
+
+
+
